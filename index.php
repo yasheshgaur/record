@@ -6,6 +6,7 @@
 	    ul { list-style: none; }
 	    #recordingslist audio { display: block; margin-bottom: 10px; }
 	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>	
 	<script src="js/recorder.js"></script>
 	<script src="js/interface.js"></script>
 </head>
