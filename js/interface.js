@@ -25,8 +25,8 @@ function stopRecording(button) {
     // send audio data to server
     uploadBlob();
     
-    chrome://flags.clear();
- }
+    //chrome://flags.clear();
+}
 
 function uploadBlob() {
 	recorder && recorder.exportWAV(function(blob) {
